@@ -11,5 +11,5 @@ docker build -t rest-myip .
 
 e.g. 
 ```
-docker run --rm -p 80:8080 rest-myip
+docker run --rm -p 80:8080 --hostname $(hostname) rest-myip
 ```
